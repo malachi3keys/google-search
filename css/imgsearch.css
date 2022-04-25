@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Top of page links */
+#bar {
+    padding: 1%;
+}
+
+.top-link:hover {
+    text-decoration: underline;
+} 
+
+
+/* Search section */
+#search-bar {
+    padding: 7% 15%;
+}
+
+/*Logo positioning & Image Fields*/
+.logo {
+    display: block;
+    height: 92px;
+    width: 272px;   
+}
+
+.logo-div {
+    display: inline-block;
+    position: relative;
+    margin: 3% auto 1.5%;
+}
+
+#img-tag {
+    display: none;
+}
+
+.bottom {
+    margin: 0;
+    position: absolute;
+    bottom: 3%;
+    right: 1.5%;
+}
+
+/* Textbox */
+#text-div {
+    position: relative;
+}
+
+.textbox {
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 25px;
+    line-height: 2rem;
+    width: 75%;
+    height: 44px;
+    max-width: 582px;
+    padding: 5px 50px;
+}
+
+.textbox:hover {
+    box-shadow: 2px 2px 5px rgb(216, 215, 215);
+}
+
+.textbox:focus {
+    box-shadow: 2px 2px 5px rgb(216, 215, 215);
+    outline: none;
+}
+
+#magnify {
+    color: rgb(197, 195, 195);
+    position: absolute;
+    left: 30%;
+    top: 35%;
+}
+
+/* Buttons */
+.enter {
+    margin: 2% 0.5%;
+}
+
+.enter:hover {
+    border: 1px solid rgb(216, 215, 215);
+}
+

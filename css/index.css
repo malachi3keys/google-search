@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+/* Top of page links */
+#bar {
+    padding: 1%;
+}
+
+.top-link:hover {
+    text-decoration: underline;
+} 
+
+
+/* Search section */
+#search-bar {
+    padding: 7% 15%;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+    margin: 3% auto 2%;
+}
+
+#text-div {
+    position: relative;
+}
+
+.textbox {
+    background-color: transparent;
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 25px;
+    line-height: 2rem;
+    padding: 5px 50px; 
+    height: 44px;
+    width: 75%;
+    max-width: 582px;
+}
+
+.textbox:hover {
+    box-shadow: 2px 2px 5px rgb(216, 215, 215);
+}
+
+.textbox:focus {
+    box-shadow: 2px 2px 5px rgb(216, 215, 215);
+    outline: none;
+}
+
+#magnify {
+    color: rgb(197, 195, 195);
+    position: absolute;
+    left: 30%;
+    top: 35%;
+}
+
+.enter {
+    margin: 2% 0.5%;
+}
+
+.enter:hover {
+    border: 1px solid rgb(216, 215, 215);
+}

@@ -1,0 +1,61 @@
+/* Title */
+.adv-title {
+    color: #d93025;
+    font-size: 1.25rem;    
+}
+
+.title-box {
+    text-align: left;
+    margin: 0.5% 0 1% 0;
+    padding-left: 2%;
+}
+
+hr {
+    color: rgb(197, 195, 195);
+}
+
+
+/* Text Input */
+#adv-search {
+   margin: 2% 0;
+   padding-left: 2%;
+}
+
+#form-container {
+    text-align: left;
+}
+
+.adv-text {
+    border: 1px solid rgb(197, 195, 195);
+    line-height: 1.5rem;
+    width: 70%;
+    max-width: 570px;
+}
+
+.adv-text:focus {
+    border: 1px solid blue;
+    box-shadow: inset 2px 2px 7px rgb(197, 195, 195);
+    outline: none;
+}
+
+.par {
+    display: inline-block;
+    font-size: 0.8rem;
+    min-width: 169px;
+}
+
+/* Button */
+.button-div {
+    max-width: 743px;
+} 
+
+#adv-btn {
+    background-color: #4d90fe;
+    color: white;
+    float: right;
+    margin-top: 2.5%;
+}
+
+#adv-btn:hover {
+    background-color: #357ae8;
+}
